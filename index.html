@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- =============================================
+       PAGE TITLE — Change to your name
+  ============================================= -->
+  <title>Keyur Solanki | Portfolio</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Your Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVBAR
+  ============================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- ✏️ Change logo text to your name or brand -->
+      <a href="#home" class="logo">Keyur<span> Solanki</span></a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"      class="nav-link">Home</a></li>
+        <li><a href="#about"     class="nav-link">About</a></li>
+        <li><a href="#resume"    class="nav-link">Resume</a></li>
+        <li><a href="#services"  class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact"   class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- =============================================
+       HERO SECTION
+  ============================================= -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+
+      <!-- Left: Text -->
+      <div class="hero-text fade-in">
+        <!-- ✏️ Change greeting and name -->
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Keyur <span class="accent">Solanki</span></h1>
+
+        <!-- ✏️ Change your title/role -->
+        <h2 class="hero-role">
+          <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+        </h2>
+
+        <!-- ✏️ Change description -->
+        <p class="hero-desc">
+          I am a passionate AWS and DevOps enthusiast focused on building scalable, secure, and efficient cloud solutions. I have a strong interest in cloud architecture, automation, and performance optimization.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">View My Work</a>
+          <a href="#contact"   class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <!-- Right: Profile Image -->
+      <div class="hero-image fade-in delay-2">
+        <!--
+          ✏️ Replace "D:\documents personal\WhatsApp Image 2025-05-10 at 20.46.41_e87a39d0.jpg" with your own photo path.
+          Example: src="assets/profile.jpg"
+        -->
+        <div class="img-wrapper">
+          <img
+            src="images\keyur.jpeg"
+            alt="Keyur Solanki — Profile Photo"
+            class="profile-img"
+          />
+          <div class="img-glow"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Decorative blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </section>
+
+
+  <!-- =============================================
+       ABOUT SECTION
+  ============================================= -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+
+        <!-- Bio -->
+        <div class="about-bio fade-in">
+          <!-- ✏️ Replace with your own bio -->
+          <p>
+           I am a passionate AWS and DevOps enthusiast focused on building scalable, secure, and high-performance cloud solutions. I enjoy working with modern cloud technologies and continuously improving my skills through hands-on projects and real-world implementations.
+          </p>
+          <p style="margin-top:1rem;">
+           I have a strong interest in cloud architecture, DevOps practices, and system optimization. building a highly skilled AWS Solutions Architect and build reliable, efficient, and scalable systems that solve real-world problems.
+          </p>
+
+          <!-- ✏️ Update info -->
+          <ul class="about-info">
+            <li><i class="fa fa-map-marker-alt accent"></i> Surat, Gujarat, India</li>
+            <li><i class="fa fa-envelope accent"></i> keyurcloud1@gmail.com</li>
+            <li><i class="fa fa-briefcase accent"></i> Available for Freelance</li>
+          </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="about-skills fade-in delay-1">
+          <h3 class="skills-title">My Skills</h3>
+
+          <!-- ✏️ Edit skill name and percentage (width) -->
+          <div class="skill">
+            <div class="skill-label"><span>AWS / Cloud</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>Python</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>DevOps</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>Automation</span><span>88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>Docker / Kubernetes</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          </div>
+
+          <!-- Tech Badges -->
+          <div class="tech-badges">
+            <span class="badge">AWS</span>
+            <span class="badge">Python</span>
+            <span class="badge">TensorFlow</span>
+            <span class="badge">DevOps</span>
+            <span class="badge">Cloud</span>
+            <span class="badge">Docker</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       RESUME SECTION
+  ============================================= -->
+  <section class="section resume" id="resume">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Resume</span></h2>
+
+      <div class="resume-grid">
+
+        <!-- Education Column -->
+        <div class="timeline-col fade-in">
+          <h3 class="timeline-heading"><i class="fa fa-graduation-cap accent"></i> Education</h3>
+
+          <!-- ✏️ Edit your education entries -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021 – 2024</span>
+              <h4>Bachelor of Science in Information Technology</h4>
+              <p>Bhagwan Mahavir University, Surat</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 – 2026</span>
+              <h4>Master of Science in Information Technology</h4>
+              <p>Bhagwan Mahavir University, Surat</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="timeline-col fade-in delay-1">
+          <h3 class="timeline-heading"><i class="fa fa-certificate accent"></i> Certifications</h3>
+
+          <!-- ✏️ Edit your certifications -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026</span>
+              <h4>AWS Solutions Architect – Associate</h4>
+              <p>Amazon Web Services</p>
+            </div>
+          </div>
+      </div><!-- /resume-grid -->
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       SERVICES SECTION
+  ============================================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Services</span></h2>
+
+      <div class="services-grid">
+
+        <!-- ✏️ Edit each service card -->
+        <div class="service-card fade-in">
+          <div class="service-icon"><i class="fa fa-cloud"></i></div>
+          <h3>Cloud Architecture</h3>
+          <p>Designing and deploying scalable, cost-efficient AWS infrastructures using best practices for security and reliability.</p>
+        </div>
+        <div class="service-card fade-in delay-3">
+          <div class="service-icon"><i class="fa fa-shield-alt"></i></div>
+          <h3>DevOps & CI/CD</h3>
+          <p>Streamlining delivery pipelines with Docker, Kubernetes, GitHub Actions, and infrastructure-as-code on AWS.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       PORTFOLIO SECTION
+  ============================================= -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Projects</span></h2>
+
+      <div class="portfolio-grid">
+
+        <!--
+          ✏️ To add / edit projects:
+          - Change the src image URL
+          - Update title, description
+          - Update the href links for Live Demo and GitHub
+      -->
+        <div class="project-card fade-in delay-1">
+          <div class="project-img-wrap">
+            <img src="images\announcement-of-upcoming-events-on-a-golden-frame-with-dry-flowers-on-a-white-background-2H3MCG2.jpg" alt="Project Five" />
+            <div class="project-overlay">
+              <a href="http://event-announcement-frontend-page.s3-website.ap-south-1.amazonaws.com/" class="btn btn-primary btn-sm" target="_blank">Live Demo</a>
+              <a href="https://github.com/CloudEng1/AWS-Serverless-Event-Announcement-" class="btn btn-outline btn-sm" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AWS-Serverless-Event-Announcement</h3>
+            <p>An event-driven ETL pipeline using AWS Lambda, S3, and DynamoDB for real-time data processing.</p>
+            <div class="project-tags">
+              <span>AWS Lambda</span><span>Amazon S3</span><span>Amazon API Gateway</span><span>AWS IAM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in delay-2">
+          <div class="project-img-wrap">
+            <img src="images\businessman-working-with-business-analytics-data-management-system-computer-online-document-management-metrics-connected-database-corporate-strategy-finance-operations-sales-min.jpg" />
+            <div class="project-overlay">
+              <a href="https://github.com/CloudEng1/aws-monitoring-alert-system" class="btn btn-outline btn-sm" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AWS-monitoring-alert-system</h3>
+            <p>A CLI tool that automates AWS infrastructure provisioning using Terraform and Python scripting.</p>
+            <div class="project-tags">
+              <span>AWS EC2</span><span>AWS CloudWatch</span><span>AWS SNS</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /portfolio-grid -->
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       CONTACT SECTION
+  ============================================= -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Get In <span class="accent">Touch</span></h2>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info fade-in">
+          <p>Have a project in mind, an exciting opportunity, or just want to say hi? Drop me a message — I'd love to hear from you.</p>
+
+          <ul class="contact-details">
+            <!-- ✏️ Replace with your contact info -->
+            <li><i class="fa fa-envelope accent"></i> keyurcloud1@gmail.com</li>
+            <li><i class="fa fa-phone accent"></i> +91 74349 71101</li>
+            <li><i class="fa fa-map-marker-alt accent"></i> Surat, Gujarat, India</li>
+          </ul>
+
+          <!-- Social Icons — ✏️ Replace # with your profile URLs -->
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/keyur-solanki-tech" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/CloudEng1/" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap fade-in delay-1">
+          <!-- ✏️ To make this form functional, connect it to EmailJS, Formspree, or your own backend -->
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text"  id="name"    name="name"    placeholder="Your Name"    required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email"   name="email"   placeholder="Your Email"   required />
+            </div>
+            <div class="form-group">
+              <input type="text"  id="subject" name="subject" placeholder="Subject"               />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" placeholder="Your Message…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message <i class="fa fa-paper-plane"></i>
+            </button>
+            <p class="form-status" id="form-status"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer">
+    <!-- ✏️ Update name and year if needed -->
+    <p>© 2025 <span class="accent">Keyur Solanki</span>. All rights reserved.</p>
+    <p class="footer-sub">Designed & Built with <span class="accent">♥</span></p>
+  </footer>
+
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- Your Script -->
+  <script src="script.js"></script>
+</body>
+</html>
